@@ -86,8 +86,10 @@ header label:hover {
     background: white;
     width: 250px;
 }
+
 #content {
     display: flex;
+
 }
 
 p{
