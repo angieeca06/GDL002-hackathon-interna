@@ -93,18 +93,23 @@ function showGenreMovies(genre, page, year) {
 }
 
 
- const showSliderMovies = (id)=>{
-  const arraySlider = ["tt4477536", "tt6494418", "tt0118751", "tt5292624", "tt8451018"];
-  let arrayData = [];
-  for(let i=0; i<arraySlider.length; i++){
-    window.data.getSliderMovies(arraySlider[i]).then(function(movieData) {
-      arrayData.push(movieData);
-      let sliderMovies = arrayData.map(s => showSliderMoviesTemplate(s))
-      .join(" ");
-      let silderShow = document.getElementById("slider");
-      silderShow.innerHTML = sliderMovies;
-     });
-  }
- }
+//  const showSliderMovies = (id)=>{
+//    //t4477536 = Fifty shades fred 
+//    //tt6911608 = Mamma mía 
+//    //tt4154756 = Infinity war
+//    //tt5848272 = Ralph Breaks the Internet
+//    //tt1727824 = Bohemian Rhapsody
+//   const arraySlider = ["tt4477536", "tt6911608", "tt4154756", "tt5848272", "tt1727824"];
+//   let arrayData = [];
+//   for(let i=0; i<arraySlider.length; i++){
+//     window.data.getSliderMovies(arraySlider[i]).then(function(movieData) {
+//       arrayData.push(movieData);
+//       let sliderMovies = arrayData.map(s => showSliderMoviesTemplate(s))
+//       .join(" ");
+//       let silderShow = document.getElementById("slider");
+//       silderShow.innerHTML = sliderMovies;
+//      });
+//   }
+//  }
 
-showSliderMovies();
+// showSliderMovies();
