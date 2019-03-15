@@ -8,14 +8,20 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: black;
 }
-header {
+/* header {
      width: 100%; 
     background: rgba(196, 196, 196, 0.26);
-} 
+}  */
 
 #menu-bar {
     display: none;
 }
+
+.headerImg {
+    background-image: url(images/bannercielo.jpg);
+    width: 100%;
+}
+
  
 header label{
     display: none;
